@@ -1,6 +1,7 @@
 const PuppeteerService = require("./PuppeteerService");
 const CSVService = require("./CSVService");
 const Scraper = require("./Scraper");
+const path = require("path");
 
 (async () => {
   const puppeteerService = new PuppeteerService();

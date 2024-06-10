@@ -1,18 +1,26 @@
 {
-  "name": "web-scrapping",
+  "name": "my-puppeteer-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Puppeteer project for web scraping or automated browser testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "docx": "^8.5.0",
-    "nodemon": "^3.1.3",
-    "path": "^0.12.7",
-    "puppeteer": "^22.10.0"
-  }
+    "puppeteer": "^13.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/my-puppeteer-project.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "web scraping",
+    "automated testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
 }
