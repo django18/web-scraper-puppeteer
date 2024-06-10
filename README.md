@@ -45,7 +45,7 @@ This project is a web scraper built using [Puppeteer](https://github.com/puppete
 1. **Run the scraper:**
 
    ```sh
-   node src/index.js
+   npm run start
    ```
 
 2. The scraped data will be saved in a file named `scraped_data_table.csv` in the root directory.
